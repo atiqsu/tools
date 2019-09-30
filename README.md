@@ -30,6 +30,7 @@ Add a virtual host in apache i.e
 > Or simply put the folder inside `htdocs` :P 
 
 
+> **Check markdown cheatsheet** <a href="https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#code">here</a>
 
  
 

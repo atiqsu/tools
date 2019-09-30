@@ -19,9 +19,9 @@
                     <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Functionality <span class="caret"></span></a>
                     <ul class="dropdown-menu">
                         <li><a href="/str_len.php">Calculate string length</a></li>
-                        <li><a href="/patch_builder.php">Patch Builder</a></li>
+<!--                        <li><a href="/patch_builder.php">Patch Builder</a></li>-->
                         <li><a href="/prime_number.php">Prime Number</a></li>
-                        <li><a href="/prime_factor.php">Prime Factors</a></li>
+<!--                        <li><a href="/prime_factor.php">Prime Factors</a></li>-->
                         <li><a href="/calculator.php">Calculator</a></li>
 
                         <li role="separator" class="divider"></li>

@@ -15,6 +15,11 @@ $languageArray[] = ['Python', '4', 1];
 $languageArray[] = ['Swift', '3', 1];
 
 
+$contributors = [];
+
+//$contributors[] = ['name' => 'Full name', 'title' => 'Web developer']
+
+
 ?><!DOCTYPE html>
 <html lang="en">
 <head>
@@ -89,6 +94,20 @@ $languageArray[] = ['Swift', '3', 1];
 
         </tbody>
     </table>
+
+
+    <?php
+
+    if(!empty($contributors)) {
+
+        echo '<h2>Contributors : </h2>';
+        foreach($contributors as $contributor) {
+
+            echo '<h3> '.$contributor['name'].' <small>'.$contributor['title'].'</small></h3>';
+        }
+    }
+
+    ?>
 
 </div>
 

@@ -34,6 +34,12 @@
             text-align: center;
     
         }
+
+
+        div > button {
+
+            width:200px;
+        }
     </style>
 
 </head>

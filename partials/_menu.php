@@ -23,7 +23,8 @@
                         <li><a href="/prime_number.php">Prime Number</a></li>
 <!--                        <li><a href="/prime_factor.php">Prime Factors</a></li>-->
                         <li><a href="/calculator.php">Calculator</a></li>
-                        <li><a href="http://localhost/tools/mail_chimp.php">mail chimp</a></li>
+                        <li><a href="/mail_chimp.php">mail chimp</a></li>
+                        <li><a href="/looper/index.php">Looper</a></li>
                         <li role="separator" class="divider"></li>
 
                         <li><a href="#">About</a></li>

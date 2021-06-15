@@ -125,10 +125,32 @@
     $(document).on('click', '#submit_1', function (ev) {
         ev.preventDefault();
 
-        var str = $('#str_calc').val();
 
+        var url = "./../ajax/rma.php";
+        var values = {
+            'route': url,
+            'btn': '_rma',
+            'dt': $('#str_calc').val()
+        };
 
-        addOutput(str.length)
+        $.ajax({
+            url: values.route,
+            method: 'POST',
+            data: values,
+            dataType: 'html',
+            success: function (data) {
+
+                clearOutput();
+
+                addOutput(data);
+            },
+            error: function (data) {
+
+            },
+            complete: function () {
+
+            }
+        });
 
     });
 
